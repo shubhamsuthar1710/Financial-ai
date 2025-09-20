@@ -26,11 +26,11 @@ pip install -r requirements.txt
 2️⃣ Set Up Database
 Ensure PostgreSQL is running locally and update .env with your credentials:
 ```plaintext
-POSTGRES_HOST='localhost'
-POSTGRES_PORT='5432'
-POSTGRES_USER='your_db_user'
-POSTGRES_PASSWORD='your_db_password'
-POSTGRES_DB='your_db_name'
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=12345678
+MYSQL_DB=deepseek_db
 ```
 For MySQL, update the database connection settings in app/database.py accordingly.
 3️⃣ Run Ollama Locally
@@ -76,3 +76,4 @@ DeepSeek AI is designed to securely manage your finances using AI. If you find i
 📩 Let’s improve this together!
 ---
 💙 If you like this project, give it a ⭐ on GitHub and share your feedback!
+
